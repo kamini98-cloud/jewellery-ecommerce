@@ -1,0 +1,16 @@
+{
+  "name": "my-ecommerce_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  
+  "scripts": {
+  "start": "node src/server.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
