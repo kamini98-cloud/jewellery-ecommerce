@@ -1,36 +1,153 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💎 Jewellery E-Commerce Website
 
-## Getting Started
+A modern, responsive jewellery e-commerce website built with Next.js, React and Node.js.
 
-First, run the development server:
+This project provides a complete online shopping experience including product browsing, search, filtering, sorting, wishlist, cart, authentication, checkout and an admin management interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Coming soon.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 GitHub Repository
 
-## Learn More
+https://github.com/kamini98-cloud/jewellery-ecommerce
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🛍️ Customer Features
 
-## Deploy on Vercel
+- Responsive jewellery storefront
+- Product categories and collections
+- Product search
+- Product filtering
+- Product sorting
+- Product details page
+- Product image gallery
+- Related products
+- New arrivals
+- Best sellers
+- Wishlist functionality
+- Shopping cart
+- Quantity management
+- User registration
+- User login
+- Account management
+- Address management
+- Order history
+- Checkout flow
+- Payment page
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔎 Product Discovery
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Category-based browsing
+- Search products
+- Filter by category
+- Sort by price
+- Sort by rating
+- Discount-based sorting
+- Product availability
+- Product ratings and reviews
+
+### 🧑‍💼 Admin Features
+
+- Admin dashboard
+- Product management
+- Category management
+- Inventory management
+- Customer management
+- Order management
+- Coupon management
+- Banner management
+- Notifications
+- Reports
+- Admin settings
+
+### 🎨 UI Features
+
+- Responsive design
+- Announcement bar
+- Navigation bar
+- Hero section
+- Product cards
+- Product sections
+- Promotional banners
+- Responsive checkout modal
+- Mobile-friendly layouts
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+- Next.js
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Tailwind CSS
+
+### Backend
+
+- Node.js
+- Express.js
+
+### Development Tools
+
+- Git
+- GitHub
+- VS Code
+- npm
+
+---
+
+## 📁 Project Structure
+
+```text
+jewellery-ecommerce/
+│
+├── my-ecommerce_backend/
+│   ├── src/
+│   │   └── server.js
+│   ├── package.json
+│   └── package-lock.json
+│
+├── public/
+│   ├── categories/
+│   └── products/
+│
+├── src/
+│   ├── app/
+│   │   ├── account/
+│   │   ├── admin/
+│   │   ├── cart/
+│   │   ├── checkout/
+│   │   ├── collections/
+│   │   ├── login/
+│   │   ├── payment/
+│   │   ├── products/
+│   │   ├── register/
+│   │   ├── shop/
+│   │   └── wishlist/
+│   │
+│   ├── components/
+│   │   ├── account/
+│   │   ├── checkout/
+│   │   ├── product/
+│   │   └── shop/
+│   │
+│   ├── context/
+│   │   ├── AuthContext.jsx
+│   │   ├── CartContext.jsx
+│   │   └── WishlistContext.jsx
+│   │
+│   └── data/
+│       └── products.js
+│
+├── package.json
+├── package-lock.json
+└── README.md
